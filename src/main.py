@@ -21,7 +21,7 @@ def log_reminder():
 
 if __name__ == "__main__":
     try:
-        interval = input("Enter the reminder interval in minutes (default is 60): ")
+        interval = input("Enter the reminder interval in minutes (Default: 60): ")
         if interval.strip() == "":
             interval = 60
         else:
